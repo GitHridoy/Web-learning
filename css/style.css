@@ -16,6 +16,7 @@ html, body{
 	text-align: center;
 	font-size: var(--h2-font);
 	position: relative;
+	padding-bottom: 80px;
 }
 .section-title::after{
 	position: absolute;
@@ -255,7 +256,137 @@ header{
 .gallery-box img:hover{
 	background: rgb(0, 0, 0, 0.8);
 }
+/* counter section start  */
+.counter-section{
+   width: 100%;
+   height: 400px;
+   background: url(../img/19.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 100px;
+   background-attachment: fixed;
+}
+.counter-main{
+   max-width: 1200px;
+   margin: auto;
+}
 
+.counter-boxes{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 200px;
+   
+}
+.counter-box{
+  width: 200px;
+  height: 200px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 600;
+
+}
+.counter-box:hover{
+	background-color: rgb(0, 0, 0, 0.3);
+	transform: scale(1.1);
+	transition: ease .5s;
+	border: 1px solid;
+}
+/* Contact section start  */
+.contact-section{
+    padding: 150px 0;
+}
+.contact-main{
+   max-width: 1200px;
+   margin: auto;
+}
+.contact-boxes{
+    display: flex;
+	gap: 4rem;
+}
+.contact-box{
+    width: 550px;
+	
+}
+.contact-box .contact-title{
+	padding-bottom: 20px;
+	text-align: center;
+	color: rgb(99, 98, 97);
+}
+.contact-box img{
+	width: 100%;
+}
+.contact-box div{
+	margin-bottom: 20px;
+}
+.contact-box input{
+	width: 100%;
+	border: 0;
+	outline: none;
+	padding: 10px 15px;
+}
+.contact-box .border{
+	border-bottom: 1px solid #cec9c9;
+}
+.contact-box form .send-btn input{
+	background-color: rgb(8, 160, 101);
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	border-radius: 3px;
+}
+/* Footer section start  */
+.footer-section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(54, 54, 54);
+   padding: 100px 0;
+}
+.footer-main{
+   max-width: 1200px;
+   margin: auto;
+}
+.footer-boxes{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-box{
+   width: 350px;
+}
+.footer-box p{
+	margin-bottom: 10px;
+	color: rgb(168, 168, 168);
+}
+.footer-box ul{
+	list-style: none;
+}
+.footer-box ul li{
+   margin-bottom: 10px;
+}
+.footer-box ul li a{
+	text-decoration: none;
+	color: rgb(168, 168, 168);
+}
+.footer-title{
+	color: rgb(141, 141, 141);
+	margin-bottom: 10px;
+}
+.footer-box .social{
+	display: flex;
+	gap: 2rem;
+	color: rgb(141, 141, 141);
+}
 /* Styles for smartphones */
 @media only screen and (max-width: 480px) {
 	.toggle-section{
@@ -434,7 +565,70 @@ header{
 	margin: auto;
 	background-color: var(--main-color);
 }
+  /* counter section start  */
+  .counter-section{
+	width: 100%;
+	height: auto;
+	background: url(../img/19.jpg) rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.3);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+	margin-bottom: 100px;
+	background-attachment: fixed;
+	
+ }
+ .counter-main{
+	max-width: 450px;
+	margin: auto;
+ }
+ 
+ .counter-boxes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	
+ }
+ .counter-box{
+   width: 200px;
+   height: 200px;
+   border: 4px solid #fff;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   font-weight: 600;
+ 
+ }
+ .counter-box:hover{
+	 background-color: rgb(0, 0, 0, 0.3);
+	 transform: scale(1.1);
+	 transition: ease .5s;
+	 border: 1px solid;
+ }
+ /* contact section start  */
+ .contact-section{
+
+ }
+ .contact-main{
+       max-width: 450px;
+	   margin: auto;
+ }
+ .contact-boxes{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ .contact-box{
+      width: 300px;
+ }
   }
+
   
   /* Styles for tablets */
   @media only screen and (min-width: 481px) and (max-width: 1024px) {
