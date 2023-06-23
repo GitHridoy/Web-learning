@@ -355,14 +355,18 @@ header{
 .footer-main{
    max-width: 1200px;
    margin: auto;
+   
 }
 .footer-boxes{
-    display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 .footer-box{
    width: 350px;
+   
+   
 }
 .footer-box p{
 	margin-bottom: 10px;
@@ -386,6 +390,13 @@ header{
 	display: flex;
 	gap: 2rem;
 	color: rgb(141, 141, 141);
+}
+.copyright{
+	padding: 5px 0;
+	text-align: center;
+	background-color: rgb(92, 91, 91);
+	color: bisque;
+	border-top: 1px solid #808080;
 }
 /* Styles for smartphones */
 @media only screen and (max-width: 480px) {
@@ -626,6 +637,54 @@ header{
  }
  .contact-box{
       width: 300px;
+ }
+ /* Footer section start  */
+.footer-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(54, 54, 54);
+	padding: 100px 0;
+ }
+ .footer-main{
+	max-width: 450px;
+	margin: auto;
+ }
+ .footer-boxes{
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+ .footer-box{
+	width: 350px;
+	margin: 0 0 2rem 6rem;
+	
+	
+	
+ }
+ .footer-box p{
+	 margin-bottom: 10px;
+	 color: rgb(168, 168, 168);
+ }
+ .footer-box ul{
+	 list-style: none;
+ }
+ .footer-box ul li{
+	margin-bottom: 10px;
+ }
+ .footer-box ul li a{
+	 text-decoration: none;
+	 color: rgb(168, 168, 168);
+ }
+ .footer-title{
+	 color: rgb(141, 141, 141);
+	 margin-bottom: 10px;
+ }
+ .footer-box .social{
+	 display: flex;
+	 gap: 2rem;
+	 color: rgb(141, 141, 141);
  }
   }
 
