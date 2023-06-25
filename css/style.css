@@ -5,7 +5,6 @@
 	font-family: sans-serif;
 }
 html, body{
-	
 	overflow-x: hidden;
 }
 .section-title{
@@ -374,7 +373,7 @@ header{
 }
 .footer-boxes{
 	display: flex;
-	align-items: first baseline;
+	align-items: first baseline; /*start */
 	justify-content: space-between;
 	
 	
@@ -387,6 +386,7 @@ header{
 .footer-box p{
 	margin-bottom: 10px;
 	color: rgb(168, 168, 168);
+	font-size: 13px;
 }
 .footer-box ul{
 	list-style: none;
@@ -400,6 +400,7 @@ header{
 	text-decoration: none;
 	color: rgb(168, 168, 168);
 	display: inline-block;
+	font-size: 13px;
 }
 .footer-box ul li:hover{
 	transform: translateX(5px);
@@ -410,6 +411,25 @@ header{
 	border-bottom: 1px solid;
 	
 }
+.footer-box input{
+	width: 80%;
+	margin-bottom: 10px;
+	padding: 10px 5px;
+	border: 0;
+	outline: none;
+	background-color: rgb(54, 54, 54);
+	border-bottom: 1px solid #b3b1b1;
+	color: white;
+}
+.footer-box ::placeholder{
+	color: rgb(131, 131, 131);
+}
+.footer-box .subscribe-btn{
+	background-color: rgb(100, 98, 98);
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
 .footer-title{
 	color: rgb(202, 199, 199);
 	margin-bottom: 30px;
@@ -418,6 +438,15 @@ header{
 	display: flex;
 	gap: 2rem;
 	color: rgb(141, 141, 141);
+}
+.footer-box .fb:hover{
+	color: white;
+}
+.footer-box .yt:hover{
+	color: white;
+}
+.footer-box .tw:hover{
+	color: white;
 }
 .copyright{
 	padding: 5px 0;
