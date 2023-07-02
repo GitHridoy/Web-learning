@@ -111,6 +111,7 @@ header{
 }
 .home-main{
     display: flex;
+	flex-direction: row-reverse;
 	align-items: center;
 	justify-content: center;
 	max-width: 1200px;
