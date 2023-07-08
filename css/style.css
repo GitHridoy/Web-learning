@@ -39,11 +39,21 @@ header{
 }
 .scrolled{
 	position: fixed;
-	background-color: #ffffff;
+	background-color: rgb(0, 0, 0, 0.5);
 	transition: ease .4s;
-	box-shadow: 3px 2px 3px rgb(0, 0, 0, 0.3);
+	box-shadow: 3px 2px 3px rgba(150, 150, 150, 0.3);
+	backdrop-filter: blur(5px);
+	
+	
 	
 }
+.scrolled a{
+	color: white;
+}
+.scrolled nav ul li a{
+	color: rgb(206, 203, 203) !important;
+}
+
 .toggle-section{
 	display: none;
 }
@@ -111,7 +121,6 @@ header{
 }
 .home-main{
     display: flex;
-	flex-direction: row-reverse;
 	align-items: center;
 	justify-content: center;
 	max-width: 1200px;
@@ -121,6 +130,37 @@ header{
 }
 .home-img img{
 	width: 100%;
+	
+
+}
+.home-img{
+	position: relative;
+	
+}
+.Glass{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.363);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0;
+	top: 350px;
+	left: 0;
+	border-radius: 10px;
+	backdrop-filter: blur(6px);
+	
+	
+}
+.Glass-info{
+	text-align: left;
+	
+}
+.Glass-info h2, p{
+	margin-bottom: 10px;
+	color: rgb(252, 252, 239);
+	
 }
 .box{
   width: 550px;
