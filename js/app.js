@@ -1,6 +1,6 @@
 const sr = ScrollReveal ({
 	distance: '45px',
-	duration: 2700,
+	duration: 1700,
 	reset: true
 })
 
@@ -11,5 +11,8 @@ sr.reveal('.work-main',{delay:350, origin:'right'})
 sr.reveal('.gallery-img',{delay:350, origin:'right'})
 sr.reveal('.gallery-main',{delay:350, origin:'right'})
 sr.reveal('.counter-main',{delay:350, origin:'right'})
+sr.reveal('.blur-box',{delay:350, origin:'top'})
+sr.reveal('.contact-box',{delay:350, origin:'top'})
+
 
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, origin:'bottom'})
